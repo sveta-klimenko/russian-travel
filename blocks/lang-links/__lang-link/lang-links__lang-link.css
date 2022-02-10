@@ -1,0 +1,11 @@
+.lang-links__lang-link {
+  text-decoration: none;
+  transition: opacity 0.3s ease-in;
+  color: #FFF;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.lang-links__lang-link:hover {
+  opacity: 0.3;
+}
