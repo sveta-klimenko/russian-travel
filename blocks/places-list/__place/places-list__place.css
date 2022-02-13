@@ -1,0 +1,15 @@
+.places-list__place {
+  display: grid;
+  column-gap: 40px;
+  row-gap: 48px;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "places-list__title places-list__website"
+    "places-list__image places-list__text";
+  padding-bottom: 80px;
+}
+
+.places-list__place:last-of-type {
+  padding-bottom: 0;
+}

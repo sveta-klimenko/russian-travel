@@ -1,0 +1,13 @@
+.places-list__link {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFF;
+  transition: opacity 0.3s ease-in;
+}
+
+.places-list__link:hover {
+  opacity: 0.8;
+}

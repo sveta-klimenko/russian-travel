@@ -1,0 +1,6 @@
+.places-list__image {
+  width: 460px;
+  height: 460px;
+  object-fit: cover;
+  object-position: bottom;
+}

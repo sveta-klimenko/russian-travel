@@ -1,0 +1,11 @@
+.places-list__paragraph {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  padding-bottom: 26px;
+}
+
+.places-list__paragraph:last-of-type {
+  padding-bottom: 0;
+}

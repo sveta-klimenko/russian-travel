@@ -1,0 +1,7 @@
+.section {
+  padding-bottom: 92px;
+}
+
+.section:last-of-type {
+  padding-bottom: 76px;
+}
