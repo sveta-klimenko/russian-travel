@@ -2,3 +2,21 @@
   height: 615px;
   text-align: center;
 }
+
+@media screen and (max-width: 1180px) {
+  .image-caption__image {
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .image-caption__image {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .image-caption__image {
+    height: 200px;
+  }
+}

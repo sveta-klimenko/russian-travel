@@ -1,10 +1,27 @@
 .photo-grid-layout {
   max-width: 1184px;
   margin: auto;
-  padding: 0;
+  padding: 0 48px 0;
   list-style-type: none;
   display: grid;
-  column-gap: 16px;
-  row-gap: 16px;
+  gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+@media screen and (max-width: 1180px) {
+  .photo-grid-layout {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photo-grid-layout {
+    padding: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid-layout {
+    padding: 0 16px 0;
+  }
 }

@@ -9,3 +9,10 @@
 .places-list__paragraph:last-of-type {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .places-list__paragraph {
+    padding-left: 16px;
+    max-width: 288px;
+  }
+}

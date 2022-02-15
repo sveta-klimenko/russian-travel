@@ -9,3 +9,10 @@
 .lang-links__lang-link:hover {
   opacity: 0.3;
 }
+
+@media screen and (max-width: 425px) {
+  .lang-links__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

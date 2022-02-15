@@ -5,3 +5,18 @@
   font-size: 72px;
   line-height: 76px;
 }
+
+@media screen and (max-width: 800px) {
+  .places-list__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places-list__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding-left: 16px;
+  }
+}

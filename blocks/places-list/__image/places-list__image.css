@@ -4,3 +4,24 @@
   object-fit: cover;
   object-position: bottom;
 }
+
+@media screen and (max-width: 1180px) {
+  .places-list__image {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .places-list__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places-list__image {
+    width: 320px;
+    height: 320px;
+  }
+}

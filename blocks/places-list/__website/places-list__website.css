@@ -3,3 +3,9 @@
   justify-self: start;
   align-self: end;
 }
+
+@media screen and (max-width: 425px) {
+  .places-list__website {
+    align-self: start;
+  }
+}

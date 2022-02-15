@@ -11,3 +11,9 @@
 .places-list__link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 425px) {
+  .places-list__link {
+    padding-left: 16px;
+  }
+}

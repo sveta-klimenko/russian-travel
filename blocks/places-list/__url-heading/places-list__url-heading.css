@@ -7,3 +7,9 @@
   letter-spacing: 2px;
   color: #AAA;
 }
+
+@media screen and (max-width: 425px) {
+  .places-list__url-heading {
+    padding-left: 16px;
+  }
+}

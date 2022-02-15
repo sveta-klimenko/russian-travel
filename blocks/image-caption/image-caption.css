@@ -1,5 +1,24 @@
 .image-caption {
   padding: 64px 0 0;
   margin: auto;
-  width: 984px
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1180px) {
+  .image-caption {
+    padding: 56px 0 0;
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .image-caption {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .image-caption {
+    width: 320px;
+  }
 }
