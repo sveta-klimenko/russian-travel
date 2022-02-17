@@ -1,24 +1,12 @@
 .image-caption {
   padding: 64px 0 0;
   margin: auto;
-  max-width: 984px;
+  align-self: center;
 }
 
 @media screen and (max-width: 1180px) {
   .image-caption {
     padding: 56px 0 0;
-    width: 928px;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .image-caption {
-    width: 768px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .image-caption {
-    width: 320px;
-  }
-}

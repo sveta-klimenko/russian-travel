@@ -10,19 +10,21 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип: карта России">
-    <div class="lang-links">
-      <a href="#" class="lang-links__lang-link lang-links__lang-link_lang-russian">Ru</a>
-      <a href="#" class="lang-links__lang-link lang-links__lang-link_lang-english">En</a>
-    </div>
+    <nav>
+      <div class="lang-links">
+        <a href="#" class="lang-links__lang-link lang-links__lang-link_lang-active">Ru</a>
+        <a href="#" class="lang-links__lang-link">En</a>
+      </div>
+    </nav>
   </header>
     <main class="content">
       <section class="lead section">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <div class="image-caption">
+        <figure class="image-caption">
           <img class="image-caption__image" src="./images/lead-polka.jpg" alt="Девушка спит на нижней боковой полке в поезде, поверх наложен маршрут поезда">
-          <p class="image-caption__caption">ваша полка — верхняя</p>
-        </div>
+          <figcaption class="image-caption__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
 
@@ -60,6 +62,7 @@
       
 
       <section class="places section">
+        
         <ul class="places-list">
 
           <li class="places-list__place">
@@ -126,6 +129,7 @@
             </div>
           </li>
         </ul>
+        
       </section>
       
 
@@ -137,23 +141,25 @@
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer__links">
-        <li>
-          <a href="http://yandex.ru/maps" class="footer__link">Карты</a>
-        </li>
-        <li>
-          <a href="http://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
-        </li>
-        <li>
-          <a href="http://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
-        </li>
-        <li>
-          <a href="http://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
-        </li>
-        <li>
-          <a href="http://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
-        </li>
-      </ul>
+      <nav>
+        <ul class="footer__links">
+          <li>
+            <a href="http://yandex.ru/maps" class="footer__link">Карты</a>
+          </li>
+          <li>
+            <a href="http://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
+          </li>
+          <li>
+            <a href="http://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
+          </li>
+          <li>
+            <a href="http://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
+          </li>
+          <li>
+            <a href="http://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2021. Клименко Света</p>
     </footer>
 
